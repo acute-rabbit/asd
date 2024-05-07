@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js"></script>
+<script src="scriptchat.js"></script>
+</head>
+<body>
+    <div class="topo">
+        <div class="topo1">
+            <div class="3linhas">
+                <div class="imagemlinhas" id="3linhas">
+                    <figure><img src="3linhas.png" alt="3linhas"></figure>
+                </div>
+            </div>
+            <div class="robloxlogo">
+                <div class="imagemrobloxlogo" id="robloxlogo">
+                    <figure><img src="Roblox.jpg" alt="robloxlogo"></figure>
+                </div>
+            </div>
+        </div>
+        <div class="topo2">
+            <ul class="4opcoes">
+                <li>
+                    <a href="" class="Discover">Discover</a>
+                </li>
+                <li>
+                    <a href="" class="Marketplace">Marketplace</a>
+                </li>
+                <li>
+                    <a href="" class="Create">Create</a>
+                </li>
+                <li>
+                    <a href="" class="Robux">Robux</a>
+                </li>
+            </ul>
+            <div class="bgpesquisa">
+                <img src="busca.png" alt="lupa" width="30px">
+            <form>
+                <input class="barradepesquisa"></input>
+            </form>
+             </div>
+            
+        </div>
+        <div class="topo3">
+            <div class="perfil"></div>
+            <div class="dinheiro"></div>
+            <div class="configuracoes"></div>
+        </div>
+        
+    </div>
+
+        <div class="conteudo">
+            <div class="foto">
+                <figure><img src="worm.jpg" alt="worm"></figure>
+            </div>
+            <div class="conteudo2">
+                <div class="nome">
+                    <p class="titulo">Worm 2048</p> <br>
+                    <p class="feitopor">By MetaMake</p> <br>
+                    <p class="idade">All Ages</p>
+                </div>
+                <div class="jogar" >
+                <form action="#">
+                    <a href="index.html" type="button" class="botaodeplay"> <span><img src="seta.png" class="seta" alt="seta"></span></a>
+                </form>
+                </div>
+            </div>
+        </div>
+    <div class="chat">
+        apelido: <input type="text" id="apelido" size="6">
+        mensagem: <input type="text" id="texto" size="50">
+        <button onclick="Enviar();">OK</button>
+        <div id="resposta"></div>
+    </div>
+</body>
